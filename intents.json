@@ -1,0 +1,23 @@
+{"intents":  [
+  {"tag":  "greetings",
+  "patterns":  ["hello!", "hey", "hi!", "good day", "greetings", "what's up?", "how is it going?"],
+  "responses": ["Hello!", "Hey!", "What can I do for you?"]
+  },
+  {"tag":  "goodbye",
+  "patterns":  ["cya", "See you later", "Goodbye", "I am leaving", "Have a Good day", "bye", "cao", "see ya"],
+  "responses": ["Sad to see you go :(", "Talk to you later", "Good bye!"]
+  },
+  {"tag":  "name",
+  "patterns":  ["what is your name?", "what should i call you?", "whats your name?", "who are you?",
+                "Can you tell me your name?"],
+  "responses": ["You can call me Neuroni!", "I'm Neuroni!", "I'm Neuroni the assistant of Yaroslav!"]
+  },
+  {"tag":  "shop",
+  "patterns":  ["Id like to buy something", "what are your products?", "what do you recommend?", "What are you selling?"],
+  "responses": ["BooTStore has a lot of different types of shoes: NewBalance, Nike, Adidas, Asics, Puma"]
+  },
+  {"tag":  "hours",
+  "patterns":  ["When are you guys open", "what are your hours", "hours of operation"],
+  "responses": ["From 10 am to 10 pm"]
+  }
+]}
